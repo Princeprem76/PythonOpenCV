@@ -20,7 +20,7 @@ while True:
         print(l)
         if l < 40:
             cursorhand = llist[8]
-            if cx-w//2<cursorhand[0]<cx+w//2 and cy-h//2<cursorhand[1]<cy+h//2:
+            if cx-w//2 < cursorhand[0] < cx+w//2 and cy-h//2<cursorhand[1] < cy+h//2:
                 colorW = (0,255,0)
                 cx,cy = cursorhand
             else:
